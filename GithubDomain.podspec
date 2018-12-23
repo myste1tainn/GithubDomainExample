@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'GithubDomain/Classes/**/*'
+  s.dependency 'RxSwift', '~> 4.0'
   
   # s.resource_bundles = {
   #   'GithubDomain' => ['GithubDomain/Assets/*.png']
